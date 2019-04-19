@@ -21,3 +21,7 @@ set -x JAVA_HOME /home/skrymer/coding/java/jdk1.8.0_172
 set -x GRADLE_HOME /home/skrymer/coding/gradle/gradle-4.8-rc-3
 set -x MAVEN_HOME /home/skrymer/coding/maven/apache-maven-3.5.4
 
+__Install sdkman__
+* curl -s "https://get.sdkman.io" | bash
+* install fisher if not done already: curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+* fisher add reitzig/sdkman-for-fish
