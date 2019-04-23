@@ -25,3 +25,10 @@ __Install sdkman__
 * curl -s "https://get.sdkman.io" | bash
 * install fisher if not done already: curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 * fisher add reitzig/sdkman-for-fish
+
+__Install NVM__
+* curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+* nvm install --lts
+* install fisher if not done already: curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+* fisher add FabioAntunes/fish-nvm
+* fisher add edc/bass
