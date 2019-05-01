@@ -32,3 +32,14 @@ __Install NVM__
 * install fisher if not done already: curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 * fisher add FabioAntunes/fish-nvm
 * fisher add edc/bass
+
+## Fish config file - ~/.config/fish/config.fish
+```bash
+# GIT abbreviations
+abbr -a -g gclb git checkout
+abbr -a -g gcrb git checkout -b
+abbr -a -g gf git fetch
+abbr -a -g gc git commit
+abbr -a -g gp git pull
+abbr -a -g gmm git merge origin/master
+```
