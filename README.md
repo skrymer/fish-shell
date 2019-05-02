@@ -36,10 +36,10 @@ __Install NVM__
 ## Fish config file - ~/.config/fish/config.fish
 ```bash
 # GIT abbreviations
-abbr -a -g gclb git checkout
-abbr -a -g gcrb git checkout -b
-abbr -a -g gf git fetch
-abbr -a -g gc git commit
-abbr -a -g gp git pull
-abbr -a -g gmm git merge origin/master
+abbr gclb git checkout
+abbr gcrb git checkout -b
+abbr gf git fetch
+abbr gc git commit
+abbr gp git pull
+abbr gmm git merge origin/master
 ```
