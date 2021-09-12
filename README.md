@@ -34,6 +34,10 @@ __Install NVM__
 * fisher add FabioAntunes/fish-nvm
 * fisher add edc/bass
 
+__Install Oh My Fish__
+* see https://github.com/oh-my-fish/oh-my-fish
+* curl -L https://get.oh-my.fish | fish
+
 ## Fish config file - ~/.config/fish/config.fish
 ```bash
 # GIT abbreviations
